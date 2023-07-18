@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: #666666;
     font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
