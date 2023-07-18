@@ -1,0 +1,13 @@
+.banner{
+    grid-column: 1/3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8rem 0 8rem 0;
+}
+
+@media only screen and (max-width: 27rem){
+    .banner{
+        flex-direction: column;
+    }
+}

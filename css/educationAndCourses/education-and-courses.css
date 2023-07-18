@@ -1,0 +1,10 @@
+.educationAndCourses{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 51.25rem){
+    .educationAndCourses{
+        grid-column: 1/3;
+    }
+}

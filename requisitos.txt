@@ -1,0 +1,25 @@
+Barra de navegacion 
+
+Imagen para banner
+
+Sección sobre mi
+    Foto de perfil
+    Enlaces a redes sociales
+    Datos personales
+        Nombre, edad, nacionalidad, biografía
+
+Hobbies y softskills
+    Pasatiempos, habilidades blandas...
+
+Formación y cursos
+
+Experiencia en programación 
+
+Formulario de contacto
+    Correo electrónico, nombre, asunto, mensaje
+
+Pie de página con info de quién desarrollo el portafolio
+
+Responsivo 
+
+Botón para ver en otra pestaña la versión PDF del portafolio

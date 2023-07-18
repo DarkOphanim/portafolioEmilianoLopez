@@ -1,0 +1,6 @@
+.programmingExperience__ul__li{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    margin: 0 1rem 0 1rem;
+}

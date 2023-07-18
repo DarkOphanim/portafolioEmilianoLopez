@@ -1,0 +1,5 @@
+.hobbiesAndSoftskills__hobbies{
+    display: flex;
+    flex-direction: column;
+    margin: 8rem 0 0 0;
+}

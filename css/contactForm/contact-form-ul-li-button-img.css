@@ -1,0 +1,24 @@
+.contactForm__ul__li_button_img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+.contactForm__ul__li_button_img:hover{
+    box-shadow: 0 0 2rem #333333;
+}
+
+@media only screen and (max-width: 51.25rem){
+    .contactForm__ul__li_button_img{
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+@media only screen and (max-width: 27rem){
+    .contactForm__ul__li_button_img{
+        width: 3rem;
+        height: 3rem;
+        border-radius: .4rem;
+    }
+}

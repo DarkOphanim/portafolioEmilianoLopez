@@ -1,0 +1,18 @@
+.hobbiesAndSoftskills__skills__ul__li_img{
+    width: 8rem;
+    height: 8rem;
+}
+
+@media only screen and (max-width: 27rem){
+    .hobbiesAndSoftskills__skills__ul__li_img{
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+@media only screen and (max-width: 20rem){
+    .hobbiesAndSoftskills__skills__ul__li_img{
+        width: 4rem;
+        height: 4rem;
+    }
+}

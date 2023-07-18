@@ -1,0 +1,10 @@
+.contactForm__div{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 27rem){
+    .contactForm__div{
+        align-items: center;
+    }
+}

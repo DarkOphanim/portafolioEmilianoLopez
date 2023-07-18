@@ -1,0 +1,11 @@
+.programmingExperience__div{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem 0;
+}
+
+@media only screen and (max-width: 51.25rem){
+    .programmingExperience__div{
+        align-items: center;
+    }
+}

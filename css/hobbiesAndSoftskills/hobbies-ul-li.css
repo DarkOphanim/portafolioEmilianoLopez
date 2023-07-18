@@ -1,0 +1,13 @@
+.hobbiesAndSoftskills__hobbies__ul__li{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem 0 1rem;
+}
+
+.hobbiesAndSoftskills__hobbies__ul__li:first-child{
+    margin: 0 1rem 0 0;
+}
+
+.hobbiesAndSoftskills__hobbies__ul__li:last-child{
+    margin: 0 0 0 1rem;
+}

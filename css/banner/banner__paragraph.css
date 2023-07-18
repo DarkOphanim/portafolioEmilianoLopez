@@ -1,0 +1,27 @@
+.banner__paragraph{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__paragraph__greetings{
+    font-size: 2.6rem;
+    font-weight: 900;
+    text-align: left;
+    margin: 0 1.2rem 2rem 1.2rem;
+}
+
+.banner__paragraph__whatNow{
+    font-size: 1.5rem;
+    margin: 2rem 1.2rem 0 1.2rem;
+    text-align: left;
+}
+
+@media only screen and (max-width: 27rem){
+    .banner__paragraph__greetings{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .banner__paragraph__whatNow{
+        text-align: justify;
+    }
+}
