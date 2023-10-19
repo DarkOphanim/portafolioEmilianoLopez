@@ -1,4 +1,10 @@
 .programmingExperience__ul{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width: 51.25rem){
+    .programmingExperience__ul{
+        flex-direction: column;
+        align-items: center;
+    }
 }
