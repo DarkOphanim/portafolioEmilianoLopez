@@ -18,4 +18,3 @@ Laptops/Pantallas pequeñas: 769px - 1024px.
 
 Colores a utilizar:
 #999;
-#6ea8fe;

@@ -11,6 +11,6 @@
 
 .menuDiv:hover, .menuDiv:active, .menuDiv:focus {
     transition: 400ms;
-    color: #6ea8fe;
+    color: #999;
     cursor: pointer;
 }
