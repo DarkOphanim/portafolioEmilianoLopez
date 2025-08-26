@@ -1,0 +1,21 @@
+Anteriormente tenía pensado modificar el proyecto <portafolioEmilianoLopez> y con esos cambios mejorar el mismo, sin embargo opté por mejor realizar un nuevo proyecto pero respetando los origenes del primero, los cuales son:
+-Todos lo relacionado al estilo / css deberá tener su propio directorio y archivo correspondiente
+-La estructura será la misma
+    ->Un menu
+    ->Acerca de mi
+    ->Hobbies y skills
+    ->Educación
+    ->Experiencia en programación
+    ->Practicas personales
+    ->Contacto
+    ->Footer
+-Se mantendrá el archivo <requisitos.txt>, pues es un recordatorio de mis primeros días programando, tratando de hacerlo de la mejor manera, aunque claro hoy puedo notar bastantes fallas, lo cual me alegra bastante, pues me dice he tenido progreso.
+
+Medidas para responsive
+Celulares: < 480px. 
+Tabletas: 481px - 768px. 
+Laptops/Pantallas pequeñas: 769px - 1024px. 
+
+Colores a utilizar:
+#999;
+#6ea8fe;

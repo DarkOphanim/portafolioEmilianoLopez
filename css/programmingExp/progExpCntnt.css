@@ -1,0 +1,11 @@
+#progExpCntnt{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+@media only screen and (max-width: 1024px) {
+    #progExpCntnt{
+        width: 80%;
+    }
+}

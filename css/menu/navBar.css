@@ -1,0 +1,12 @@
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+@media only screen and (max-width: 1024px) {
+    #navBar{
+        justify-content: flex-end;
+    }
+}

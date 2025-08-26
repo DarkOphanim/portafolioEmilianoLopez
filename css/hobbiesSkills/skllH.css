@@ -1,0 +1,13 @@
+#skllH {
+    margin: 50px 0 0 0;
+}
+
+#skllH i{
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #skllH{
+        margin: 25px 0 0 0;
+    }
+}

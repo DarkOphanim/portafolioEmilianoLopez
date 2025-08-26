@@ -1,0 +1,24 @@
+.hobbLi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #999;
+}
+
+@media only screen and (max-width: 1024px) {
+    .hobbLi{
+        width: 45%;
+        margin: 0 0 25px 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .hobbLi{
+        width: 100%;
+        margin: 0 0 25px 0;
+    }
+}

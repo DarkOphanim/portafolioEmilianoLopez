@@ -1,9 +1,0 @@
-.menu__ul__li__a{
-    text-decoration: none;
-    transition: 400ms;
-    color: #000000;
-}
-
-.menu__ul__li__a:hover{
-    color: #999999;
-}

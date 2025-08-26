@@ -1,0 +1,11 @@
+#menuCntnt{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+@media only screen and (max-width: 1024px) {
+    #menuCntnt{
+        width: 90%;
+    }
+}

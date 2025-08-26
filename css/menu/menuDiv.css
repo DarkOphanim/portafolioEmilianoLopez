@@ -1,0 +1,16 @@
+.menuDiv{
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 10px 0 10px;
+    background-color: transparent;
+    align-items: center;
+    transition: 400ms;
+    color: #000;
+}
+
+.menuDiv:hover, .menuDiv:active, .menuDiv:focus {
+    transition: 400ms;
+    color: #6ea8fe;
+    cursor: pointer;
+}
