@@ -14,7 +14,4 @@ Anteriormente tenía pensado modificar el proyecto <portafolioEmilianoLopez> y c
 Medidas para responsive
 Celulares: < 480px. 
 Tabletas: 481px - 768px. 
-Laptops/Pantallas pequeñas: 769px - 1024px. 
-
-Colores a utilizar:
-#999;
+Laptops/Pantallas pequeñas: 769px - 1024px.
