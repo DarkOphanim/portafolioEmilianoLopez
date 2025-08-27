@@ -1,57 +1,32 @@
-let navBar = document.getElementById("navBar");
-let navBarItem = document.getElementsByClassName("menuDiv");
-let cntcUlLi = document.getElementsByClassName("cntcUlLi");
+let navBarBtn = document.getElementById("navBarBtn");
+let navBarDiv = document.getElementById("navBarDiv");
 let perPracUlLi = document.getElementsByClassName("perPracUlLi");
-let windowWidth = window.innerWidth;
-let navIcon = `
-    <select
-    id="navIconRes"
-    style="
-    background-color: transparent;
-    backdrop-filter: blur(100px);
-    border-radius: 10px;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 10px;
-    ">
-        <option disabled selected>Menú</option>
-        <option onclick="location.href='#'">Inicio</option>
-        <option onclick="location.href='#aboutMe'">Sobre mí</option>
-        <option onclick="location.href='#hobbiesSkills'">Hobbies/Skills</option>
-        <option onclick="location.href='#education'">Educación</option>
-        <option onclick="location.href='#programmingExp'">Exp. en programación</option>
-        <option onclick="location.href='#personalPractice'">Pract. personales</option>
-        <option onclick="location.href='#contact'">Contacto</option>
-    </select>
-`;
+let cntcUlLi = document.getElementsByClassName("cntcUlLi");
 
-if(windowWidth <= 1024) {
-    navBar.innerHTML = "";
-    navBar.innerHTML = navIcon;
+let isNavBarDivOn = () => {
+    if(navBarDiv.style.display == "") {
+        navBarDiv.style.display = "none";
+    };
 };
 
-// Changing window location when clicking nav bar
-navBarItem[0].addEventListener('click', () => {
-    location.href = "#";
-});
-navBarItem[1].addEventListener('click', () => {
-    location.href = "#aboutMe";
-});
-navBarItem[2].addEventListener('click', () => {
-    location.href = "#hobbiesSkills";
-});
-navBarItem[3].addEventListener('click', () => {
-    location.href = "#education";
-});
-navBarItem[4].addEventListener('click', () => {
-    location.href = "#programmingExp";
-});
-navBarItem[5].addEventListener('click', () => {
-    location.href = "#personalPractice";
-});
-navBarItem[6].addEventListener('click', () => {
-    location.href = "#contact";
-});
+navBarBtn.onclick = () => {
+    isNavBarDivOn();
+    if(navBarDiv.style.display == "none") {
+        navBarDiv.style.display = "flex";
+    }
+    else {
+        navBarDiv.style.display = "none";
+    };
+};
+
+window.onclick = (event) => {
+    if(event.target !== navBarBtn) {
+        isNavBarDivOn();
+        if(navBarDiv.style.display == "flex") {
+            navBarDiv.style.display = "none";
+        }
+    };
+};
 
 // Opening new tabs when clicking any contact logo
 cntcUlLi[0].addEventListener('click', () => {

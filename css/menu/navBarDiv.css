@@ -1,0 +1,39 @@
+#navBarDiv{
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    width: 30%;
+    top: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(100px);
+}
+
+.displayNavBarDiv{
+    display: flex;
+}
+
+#navBarDiv, #navBarDiv a{
+    box-sizing: border-box;
+}
+
+#navBarDiv a:first-child{
+    margin-top: 0;
+}
+
+#navBarDiv a {
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px auto auto auto;
+    padding: 10px;
+    width: 100%;
+    transition: 400ms;
+    color: #000000;
+}
+
+#navBarDiv a:hover,#navBarDiv a:focus,#navBarDiv a:active {
+    cursor: pointer;
+    transition: 400ms;
+    background-color: #222222;
+    color: #999999;
+}

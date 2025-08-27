@@ -1,0 +1,7 @@
+#menuLogo{
+    height: 50px;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    backdrop-filter: blur(100px);
+}

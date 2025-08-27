@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/menu/menuCntnt.css">
     <link rel="stylesheet" href="css/menu/menuLogo.css">
     <link rel="stylesheet" href="css/menu/navBar.css">
-    <link rel="stylesheet" href="css/menu/menuDiv.css">
+    <link rel="stylesheet" href="css/menu/navBarBtn.css">
+    <link rel="stylesheet" href="css/menu/navBarDiv.css">
     <link rel="stylesheet" href="css/banner/banner.css">
     <link rel="stylesheet" href="css/banner/bnnrCntnt.css">
     <link rel="stylesheet" href="css/banner/mssg.css">
@@ -62,22 +63,27 @@
     <link rel="stylesheet" href="css/footer/footer.css">
     <link rel="stylesheet" href="css/footer/ftrCntnt.css">
     <link rel="stylesheet" href="css/footer/ftrP.css">
+    <link rel="stylesheet" href="css/allSections/allSections.css">
+    <link rel="stylesheet" href="css/allCntnt/allCntnt.css">
 </head>
 <body>
     <section id="mainContainer">
-        <p>¡Portafolio en actualización/mantenimiento!</p>
+        <!-- <p>¡Portafolio en actualización/mantenimiento!</p> -->
         <section id="menu">
             <div id="menuCntnt">
-                 <img src="css/images/aelaLogoBlack.png" alt="" id="menuLogo">
-                <nav id="navBar">
-                    <button class="menuDiv">Inicio</button>
-                    <button class="menuDiv">Sobre mí</button>
-                    <button class="menuDiv">Hobbies/Skills</button>
-                    <button class="menuDiv">Educación</button>
-                    <button class="menuDiv">Exp. en programación</button>
-                    <button class="menuDiv">Pract. personales</button>
-                    <button class="menuDiv">Contacto</button>
-                </nav>
+                <img src="css/images/aelaLogoBlack.png" alt="" id="menuLogo">
+                <div id="navBar">
+                    <button id="navBarBtn">Menu</button>
+                    <div id="navBarDiv">
+                        <a href="#">Inicio</a>
+                        <a href="#aboutMe">Sobre mí</a>
+                        <a href="#hobbiesSkills">Hobbies/Skills</a>
+                        <a href="#education">Educación</a>
+                        <a href="#programmingExp">Exp. en programación</a>
+                        <a href="#personalPractice">Pract. personales</a>
+                        <a href="#contact">Contacto</a>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="banner">
