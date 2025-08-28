@@ -1,0 +1,7 @@
+#hobb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}

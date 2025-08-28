@@ -6,6 +6,7 @@
     border-radius: 10px;
     transition: 400ms;
     background-color: transparent;
+    color: #000000;
 }
 
 #navBarBtn:hover,#navBarBtn:active,#navBarBtn:focus {

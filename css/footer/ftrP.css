@@ -1,0 +1,9 @@
+#ftrP{
+    display: flex;
+    width: 100%;
+    margin: 25px 0 0 0;
+}
+#ftrP i{
+    font-size: 15px;
+    text-align: center;
+}

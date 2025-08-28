@@ -1,0 +1,7 @@
+#cntcUl{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    list-style: none;
+}
