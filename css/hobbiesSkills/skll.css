@@ -5,3 +5,10 @@
     width: 100%;
     list-style: none;
 }
+
+@media only screen and (min-width: 1024px){
+    #skll{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

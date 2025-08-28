@@ -7,5 +7,17 @@
     box-sizing: border-box;
     padding: 20px 0 20px 0;
     border-radius: 30px;
+    transition: 400ms;
     background-color: #777;
+}
+
+@media only screen and (min-width: 1024px){
+    .perPracUlLi{
+        width: 20%;
+    }
+    .perPracUlLi:hover, .perPracUlLi:active, .perPracUlLi:focus{
+        transition: 400ms;
+        background-color: #555;
+        cursor: pointer;
+    }
 }

@@ -7,5 +7,17 @@
     box-sizing: border-box;
     padding: 5px 0 5px 0;
     border-radius: 10px;
+    transition: 400ms;
     background-color: #777;
+}
+
+@media only screen and (min-width: 1024px){
+    .cntcUlLi{
+        width: 8%;
+    }
+    .cntcUlLi:hover, .cntcUlLi:active, .cntcUlLi:focus{
+        transition: 400ms;
+        background-color: #555;
+        cursor: pointer;
+    }
 }

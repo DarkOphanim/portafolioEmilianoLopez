@@ -2,7 +2,7 @@
     width: 30%;
     height: 50px;
     backdrop-filter: blur(100px);
-    border: 1px solid #999999;
+    border: 1px solid #777777;
     border-radius: 10px;
     transition: 400ms;
     background-color: transparent;

@@ -1,3 +1,9 @@
 #perPracH{
     margin: 50px 0 0 0;
 }
+
+@media only screen and (min-width: 1024px){
+    #perPracH i{
+        font-size: 25px;
+    }
+}
