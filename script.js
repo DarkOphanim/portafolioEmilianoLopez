@@ -4,7 +4,7 @@ let perPracUlLi = document.getElementsByClassName("perPracUlLi");
 let cntcUlLi = document.getElementsByClassName("cntcUlLi");
 
 window.location.href = "#";
-    
+
 
 let isNavBarDivOn = () => {
     if(navBarDiv.style.display == "") {

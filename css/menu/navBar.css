@@ -2,6 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    width: 80%;
+    width: 30%;
     height: 50px;
+}
+
+@media only screen and (min-width: 1024px) {
+    #navBar{
+        width: 10%;
+    }
 }

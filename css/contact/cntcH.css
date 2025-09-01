@@ -2,8 +2,12 @@
     margin: 50px 0 0 0;
 }
 
+#cntcH i{
+    font-size: 35px;
+}
+
 @media only screen and (min-width: 1024px){
     #cntcH i{
-        font-size: 25px;
+        font-size: 40px;
     }
 }
