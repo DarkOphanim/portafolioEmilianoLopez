@@ -1,19 +1,18 @@
 #navBarBtn{
     width: 30%;
     height: 50px;
-    backdrop-filter: blur(100px);
     border: 1px solid #777777;
     border-radius: 10px;
     transition: 400ms;
     background-color: transparent;
-    color: #000000;
+    color: #DDD;
 }
 
 #navBarBtn:hover,#navBarBtn:active,#navBarBtn:focus {
     cursor: pointer;
     transition: 400ms;
-    background-color: #222222;
-    color: #999999;
+    background-color: #111;
+    color: #999;
 }
 
 @media only screen and (min-width: 1024px){

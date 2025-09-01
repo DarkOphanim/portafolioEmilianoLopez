@@ -3,6 +3,9 @@ let navBarDiv = document.getElementById("navBarDiv");
 let perPracUlLi = document.getElementsByClassName("perPracUlLi");
 let cntcUlLi = document.getElementsByClassName("cntcUlLi");
 
+window.location.href = "#";
+    
+
 let isNavBarDivOn = () => {
     if(navBarDiv.style.display == "") {
         navBarDiv.style.display = "none";
@@ -27,6 +30,8 @@ window.onclick = (event) => {
         }
     };
 };
+
+alert("Portafolio en actualizacion");
 
 // Opening new tabs when clicking any contact logo
 cntcUlLi[0].addEventListener('click', () => {

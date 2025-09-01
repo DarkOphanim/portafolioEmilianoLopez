@@ -3,10 +3,10 @@
     flex-direction: column;
     position: fixed;
     width: 90vw;
-    top: 60px;
+    top: 80px;
     padding: 20px;
     border-radius: 10px;
-    backdrop-filter: blur(100px);
+    background-color: #222;
 }
 
 .displayNavBarDiv{
@@ -28,7 +28,7 @@
     padding: 10px;
     width: 100%;
     transition: 400ms;
-    color: #000000;
+    color: #999;
 }
 
 #navBarDiv a:hover,#navBarDiv a:focus,#navBarDiv a:active {
