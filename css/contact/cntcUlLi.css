@@ -13,7 +13,7 @@
     }
     .cntcUlLi:hover, .cntcUlLi:active, .cntcUlLi:focus{
         transition: 400ms;
-        filter: invert(60%);
+        filter: invert(20%);
         cursor: pointer;
     }
 }
