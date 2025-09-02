@@ -31,7 +31,7 @@ window.onclick = (event) => {
     };
 };
 
-alert("Portafolio en actualizacion");
+// alert("Portafolio en actualizacion");
 
 // Opening new tabs when clicking any contact logo
 cntcUlLi[0].addEventListener('click', () => {
